@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="182" id="KGk-i7-Jjw" customClass="MovieShowTimeTableViewCell" customModule="module_4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="182"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKe-k9-hKu">
+                        <rect key="frame" x="10" y="10" width="356" height="160"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Movie Showtimes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-Ee-h3Q">
+                                <rect key="frame" x="16" y="16" width="178" height="51.5"/>
+                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="21"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-map-marker-50" translatesAutoresizingMaskIntoConstraints="NO" id="AUN-aL-gXL">
+                                <rect key="frame" x="270" y="45" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="8Xc-9h-kvL"/>
+                                    <constraint firstAttribute="width" constant="70" id="pmV-jh-WOv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEE MORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwD-bJ-Ro7">
+                                <rect key="frame" x="16" y="124" width="85.5" height="20"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="16"/>
+                                <color key="textColor" name="ColorYellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="ColorMovieShowTImeBG"/>
+                        <constraints>
+                            <constraint firstItem="ZaL-Ee-h3Q" firstAttribute="top" secondItem="RKe-k9-hKu" secondAttribute="top" constant="16" id="3zt-RL-FWS"/>
+                            <constraint firstItem="ZaL-Ee-h3Q" firstAttribute="width" secondItem="RKe-k9-hKu" secondAttribute="width" multiplier="0.5" id="7hh-L9-leb"/>
+                            <constraint firstItem="GwD-bJ-Ro7" firstAttribute="leading" secondItem="RKe-k9-hKu" secondAttribute="leading" constant="16" id="Gba-Sz-4NZ"/>
+                            <constraint firstItem="ZaL-Ee-h3Q" firstAttribute="leading" secondItem="RKe-k9-hKu" secondAttribute="leading" constant="16" id="K5A-oB-4tP"/>
+                            <constraint firstAttribute="bottom" secondItem="GwD-bJ-Ro7" secondAttribute="bottom" constant="16" id="fdc-Hy-odb"/>
+                            <constraint firstAttribute="trailing" secondItem="AUN-aL-gXL" secondAttribute="trailing" constant="16" id="k1M-nd-z0s"/>
+                            <constraint firstItem="AUN-aL-gXL" firstAttribute="centerY" secondItem="RKe-k9-hKu" secondAttribute="centerY" id="nBX-1L-90p"/>
+                            <constraint firstAttribute="height" constant="160" id="wpD-an-77G"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="ColorPrimary"/>
+                <constraints>
+                    <constraint firstItem="RKe-k9-hKu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="GgV-rE-U7t"/>
+                    <constraint firstAttribute="bottom" secondItem="RKe-k9-hKu" secondAttribute="bottom" constant="10" id="XXC-BD-Wbw"/>
+                    <constraint firstItem="RKe-k9-hKu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ZqA-KR-Ozh"/>
+                    <constraint firstAttribute="trailing" secondItem="RKe-k9-hKu" secondAttribute="trailing" constant="10" id="i2C-Ig-9Pz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblCheckMovieShowtimes" destination="ZaL-Ee-h3Q" id="Y7O-py-N3k"/>
+                <outlet property="lblSeeMore" destination="GwD-bJ-Ro7" id="h5K-Yb-8pI"/>
+                <outlet property="viewForBackground" destination="RKe-k9-hKu" id="1fF-WV-WDj"/>
+            </connections>
+            <point key="canvasLocation" x="152.17391304347828" y="150"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icons8-map-marker-50" width="16.666666030883789" height="16.666666030883789"/>
+        <namedColor name="ColorMovieShowTImeBG">
+            <color red="0.1173398718" green="0.1467297971" blue="0.2014286518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ColorPrimary">
+            <color red="0.075000002980232239" green="0.10700000077486038" blue="0.14000000059604645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ColorYellow">
+            <color red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
