@@ -27,8 +27,8 @@
                                     <constraint firstAttribute="height" constant="3" id="y6C-j3-atb"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vJ-wf-bAu">
-                                <rect key="frame" x="85.5" y="13.5" width="57" height="18.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5vJ-wf-bAu">
+                                <rect key="frame" x="0.0" y="13.5" width="228" height="18.5"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="15"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -38,7 +38,9 @@
                         <constraints>
                             <constraint firstItem="5vJ-wf-bAu" firstAttribute="centerX" secondItem="hYw-7t-Wca" secondAttribute="centerX" id="1EJ-qx-KW7"/>
                             <constraint firstItem="5vJ-wf-bAu" firstAttribute="centerY" secondItem="hYw-7t-Wca" secondAttribute="centerY" id="C25-cr-g3X"/>
+                            <constraint firstItem="5vJ-wf-bAu" firstAttribute="leading" secondItem="hYw-7t-Wca" secondAttribute="leading" id="ILZ-tF-NcH"/>
                             <constraint firstAttribute="trailing" secondItem="ShH-xt-gxP" secondAttribute="trailing" id="JZw-Rc-iMe"/>
+                            <constraint firstAttribute="trailing" secondItem="5vJ-wf-bAu" secondAttribute="trailing" id="TWI-6E-xe5"/>
                             <constraint firstAttribute="height" constant="45" id="ZdK-nM-CbE"/>
                             <constraint firstItem="ShH-xt-gxP" firstAttribute="leading" secondItem="hYw-7t-Wca" secondAttribute="leading" id="bQf-IY-kpC"/>
                             <constraint firstAttribute="bottom" secondItem="ShH-xt-gxP" secondAttribute="bottom" id="mmr-11-SBW"/>
@@ -55,6 +57,7 @@
             </constraints>
             <size key="customSize" width="228" height="48"/>
             <connections>
+                <outlet property="containerView" destination="hYw-7t-Wca" id="rBo-jH-guM"/>
                 <outlet property="lblGenre" destination="5vJ-wf-bAu" id="F5N-v0-gIY"/>
                 <outlet property="viewForOverlay" destination="ShH-xt-gxP" id="9Gw-Cz-nZl"/>
             </connections>

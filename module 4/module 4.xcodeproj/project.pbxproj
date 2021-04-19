@@ -97,7 +97,6 @@
 				780D778A262336B9003CF521 /* view controller */,
 				780D778226232BF3003CF521 /* Info.plist */,
 				780D779A26234814003CF521 /* fundamental */,
-				783C828E262B4ECD00BC948E /* GenreVO.swift */,
 			);
 			path = "module 4";
 			sourceTree = "<group>";
@@ -225,6 +224,7 @@
 		783C8289262B3EE300BC948E /* valueofobjects ( vos ) */ = {
 			isa = PBXGroup;
 			children = (
+				783C828E262B4ECD00BC948E /* GenreVO.swift */,
 			);
 			path = "valueofobjects ( vos )";
 			sourceTree = "<group>";

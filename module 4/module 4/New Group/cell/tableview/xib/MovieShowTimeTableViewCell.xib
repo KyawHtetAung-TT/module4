@@ -73,13 +73,13 @@
     <resources>
         <image name="icons8-map-marker-50" width="16.666666030883789" height="16.666666030883789"/>
         <namedColor name="ColorMovieShowTImeBG">
-            <color red="0.1173398718" green="0.1467297971" blue="0.2014286518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.11699999868869781" green="0.14699999988079071" blue="0.20100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ColorPrimary">
             <color red="0.075000002980232239" green="0.10700000077486038" blue="0.14000000059604645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ColorYellow">
-            <color red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.99900001287460327" green="0.98600000143051147" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
