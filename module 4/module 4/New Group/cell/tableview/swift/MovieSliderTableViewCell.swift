@@ -21,6 +21,16 @@ class MovieSliderTableViewCell: UITableViewCell {
         
         collectionViewMovie.register(UINib(nibName: String(describing: MovieSliderCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: MovieSliderCollectionViewCell.self))
         
+        
+        
+        collectionViewMovie.dataSource = self
+        collectionViewMovie.delegate = self
+        
+        collectionViewMovie.register(UINib(nibName: String(describing: MovieSliderCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: MovieSliderCollectionViewCell.self))
+        
+        
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

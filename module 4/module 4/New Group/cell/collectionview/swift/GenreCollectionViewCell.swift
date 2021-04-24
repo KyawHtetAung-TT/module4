@@ -20,7 +20,7 @@ class GenreCollectionViewCell: UICollectionViewCell {
             
             if let genre = data{
                 lblGenre.text = data?.name
-                (genre.isSelected) ? (viewForOverlay.isHidden = false) : ( viewForOverlay.isHidden = true)
+                (genre.isSelected) ? (viewForOverlay.isHidden = false) : (viewForOverlay.isHidden = true)
             }
             
 //            lblGenre.text = data?.name
