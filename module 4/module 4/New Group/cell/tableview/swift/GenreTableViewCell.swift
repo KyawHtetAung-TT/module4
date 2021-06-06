@@ -86,6 +86,7 @@ extension GenreTableViewCell : UICollectionViewDataSource, UICollectionViewDeleg
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == collectionViewMovie{
             
+//            return CGSize(width: collectionView.bounds.width/3, height: 230)
             return CGSize(width: collectionView.frame.width/3, height: 230)
         }
         return CGSize(width: widthOfString(text: genreList[indexPath.row].name, font: UIFont(name: "Geeza Pro Regular", size: 14) ?? UIFont.systemFont(ofSize: 14))+20, height: 45)
